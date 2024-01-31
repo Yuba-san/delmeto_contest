@@ -1,0 +1,10 @@
+.base 
+{
+    height: auto;
+    width: 60vw;
+    left: 20vw;
+    top: 20px;
+    padding:10vw;
+    position: relative;
+    background-color: white;
+}

@@ -1,0 +1,37 @@
+.table
+{
+    text-align: left;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: calc(100vh - 130px);
+}
+.th
+{
+    height: calc(100vh - 130px);
+    vertical-align: top;
+}
+.textarea{
+    width: 49.5vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    resize: none;
+    font-size: 0.5em;
+    border: none;
+}
+.markdows_base{
+    height: calc(100vh - 130px);
+    width: 49.5vw;
+    vertical-align: top;
+    text-align: left;
+    background-color: white;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: break-word;
+    font-size: 0.5em;
+    resize: none;
+    padding: 0;
+    margin: 0;
+}

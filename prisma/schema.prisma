@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// 更新したら npx prisma generate をしてください。
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+generator client {
+  provider = "prisma-client-js"
+}
+
+model user {
+  id    Int     @id @default(autoincrement())
+  name  String?
+  password String?
+  cookie String?
+  mail String @unique
+  code Int?
+}
+
+model page {
+  id    Int     @id @default(autoincrement())
+  name String?
+  author String? 
+  admin String?
+}
